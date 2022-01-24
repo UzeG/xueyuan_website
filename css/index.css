@@ -1,0 +1,270 @@
+/* 轮播图样式 */
+.carouselMap-content{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 1226px;
+    height: 600px;
+    overflow: hidden;
+    position: relative;
+}
+.carouselMap-content li img{
+    width: 1226px;
+    height: 600px;
+    float: left;
+}
+.carouselMap-content ul{
+    width: 600%;
+}
+.carouselMap-img{
+    /* 开启定位后使用动画函数 */
+    position: absolute;
+    left: 0;
+}
+/* 左右滑动 */
+.arrow_left, .arrow_right{
+    width: 50px;
+    height: 100px;
+    line-height: 100px;
+    color: rgba(255, 255, 255, .9);
+    background-color: rgba(255, 255, 255, .3);
+    cursor: pointer;
+}
+.arrow_left{
+    text-align: left;
+}
+.arrow_right{
+    text-align: right;
+}
+.arrow_left{
+    position: absolute;
+    top: 250px;
+    z-index: 100;
+}
+.arrow_right{
+    position: absolute;
+    right: 0;
+    top: 250px;
+    z-index: 100;
+}
+.arrow_left, .arrow_right i{
+    font-size: 30px;
+}
+
+
+/* 选择图圆点 */
+.carouselMap-content ol{
+    position: absolute;
+    left: 538px;
+    bottom: 20px;
+}
+.carouselMap-pointer li{
+    width: 15px;
+    height: 15px;
+    background-color: transparent;
+    border-radius: 10px;
+    border: 2px rgba(255, 255, 255, .6) solid;
+    float: left;
+    cursor: pointer;
+    margin: auto 10px;
+}
+.currentPointer{
+    border: 2px transparent solid !important;
+    background-color: rgba(255, 255, 255, .6) !important;
+}
+
+
+
+/* message讯息样式 */
+.message-title{
+    border-bottom: #999 1px solid;
+    line-height: 50px;
+}
+.message-title a{
+    float: right;
+    color: #333;
+}
+.message-title span{
+    font-size: 18px;
+}
+
+/* 社团快讯 */
+.stkx-wrapper{
+    /* border: black 1px solid; */
+    float: left;
+    width: 810px;
+}
+/* 通知公告 */
+.tzgg-wrapper{
+    float: right;
+    width: 370px;
+}
+
+/* 社团快讯左侧内容样式 */
+.stkx-content-left{
+    margin-top: 20px;
+    width: 380px;
+    height: 450px;
+    float: left;
+    border: #e8e7e3 1px solid;
+    /* border-top: #e8e7e3 10px solid; */
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, .3);
+}
+.stkx-content-left a{
+    color: #333;
+}
+.stkx-content-left .stkx-content-left-text{
+    padding: 15px;
+}
+.stkx-content-left-text h2{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.stkx-content-left-time{
+    color: #999;
+    font-size: 10px;
+    margin-bottom: 10px;
+}
+.stkx-content-left-time i{
+    margin-right: 5px;
+}
+.stkx-content-left-text p{
+    color: #3f3f3f;
+    line-height: 30px;
+}
+.stkx-content-left img{
+    width: 100%;
+}
+
+.stkx-content-left:hover{
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, .3);
+}
+
+
+/* 社团快讯右侧内容样式 */
+.stkx-content-right{
+    margin-top: 20px;
+    width: 400px;
+    height: 450px;
+    float: right;
+    border: #e8e7e3 1px solid;
+    /* border-top: #e8e7e3 10px solid; */
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, .3);
+}
+.stkx-content-right ul{
+    position: relative;
+    margin: 30px 20px;
+}
+.stkx-content-right a{
+    color: #333;
+}
+.stkx-content-right ul>li{
+    font-size: 18px;
+    margin-bottom: 25px;
+    padding-bottom: 32px;
+}
+.stkx-content-right ul>li:not(:last-child){
+    border-bottom:1px #e8e7e3 solid ;  
+}
+.stkx-content-right-time{
+    font-size: 15px;
+    color: #999;
+    position: absolute;
+    right: 0;
+}
+.stkx-content-right a:hover{
+    color: rgb(250, 170, 184);
+}
+
+/* 通知公告内容样式 */
+.tzgg-content{
+    margin-top: 20px;
+    width: 370px;
+    height: 450px;
+    float: right;
+    border: #e8e7e3 1px solid;
+    /* border-top: #e8e7e3 10px solid; */
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, .3);
+}
+.tzgg-content a{
+    color: #333;
+}
+.tzgg-content ul{
+    position: relative;
+    margin: 30px 20px;
+}
+.tzgg-content ul>li{
+    margin-bottom: 10px;
+    margin-top: 20px;
+    height: 90px;
+}
+.tzgg-content ul>li:not(:last-child){
+    border-bottom:1px #e8e7e3 solid ;  
+}
+.tzgg-content-time{
+    width: 72px;
+    height: 64px;
+    background-color: #999;
+    color: white;
+}
+.tzgg-content-time{
+    float: left;
+    font-size: 16px;
+    text-align: center;
+}
+.tzgg-content-time span{
+    font-size: 25px;
+}
+.tzgg-content p{
+    font-size: 15px;
+    line-height: 25px;
+    padding-left: 90px;
+}
+
+.tzgg-content ul>li:hover .tzgg-content-time{
+    background-color: rgb(250, 170, 184);
+}
+.tzgg-content ul>li:hover p{
+    color: rgb(250, 170, 184);
+}
+
+
+
+/* 社团简介容器样式 */
+.communityInfo-wrapper{
+    background-image: url(/test/img/bgimage-autumn.JPG);
+    background-size: cover;
+    /* height: 500px; */
+    padding-bottom: 50px;
+}
+.stjj-wrapper{
+    margin-top: 10px;
+    float: left;
+    width: 600px;
+}
+.zxxx-wrapper{
+    margin-top: 10px;
+    float: right;
+    width: 600px;
+}
+
+.stjj-content{
+    margin-top: 20px;
+    width: 600px;
+    height: 300px;
+    float: left;
+    border: #e8e7e3 1px solid;
+    /* border-top: #e8e7e3 10px solid; */
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, .3);
+    background-color: white;
+}
+
+.zxxx-content{
+    margin-top: 20px;
+    width: 600px;
+    height: 300px;
+    float: left;
+    border: #e8e7e3 1px solid;
+    /* border-top: #e8e7e3 10px solid; */
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, .3);
+    background-color: white;
+}

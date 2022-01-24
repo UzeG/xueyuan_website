@@ -1,0 +1,69 @@
+.contentBase{
+    position: absolute;
+    width: 900px;
+    margin-top: 50px;
+    line-height: 25px;
+    right: 0;
+    z-index: 1;
+    background-color: white;
+}
+.contentBase:nth-child(1){
+    z-index: 2;
+}
+
+/* 右边内容区样式 */
+/* 社团介绍 */
+.content-stjs{
+    height: 700px;
+}
+.content-stjs .text{
+    color: #333;
+    font-size: 20px;
+    line-height: 50px;
+}
+.text h2{
+    font-size: 30px;
+    font-weight: bolder;
+}
+.text h2:not(:nth-child(1)){
+    margin-top: 50px;
+}
+
+/* 部门组成 */
+.content-bmzc{
+    /* height: 1100px; */
+}
+.content-bmzc h2,
+.content-cyzc h2{
+    color: #333;
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+.content-bmzc .text h2::after,
+.content-cyzc .text h2::after{
+    content: '：';
+}
+.content-bmzc li,
+.content-cyzc li{
+    margin-bottom: 30px;
+}
+.content-bmzc li p{
+    line-height: 30px;
+    font-size: 20px;
+    color: #333;
+}
+.content-bmzc .quote{
+    font-size: 14px;
+    color: #999;
+}
+.content-bmzc .quote::after{
+    content: '"';
+}
+.content-bmzc .quote::before{
+    content: '"';
+}
+
+/* 成员组成 */
+.content-cyzc{
+    /* height: 2000px; */
+}

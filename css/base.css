@@ -1,0 +1,217 @@
+.clearfix::before,
+.clearfix::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+a{
+    text-decoration: none;
+}
+
+body{
+    font: 14px/1.5 Helvetica Neue,Helvetica,Arial,Microsoft Yahei,Hiragino Sans GB,Heiti SC,WenQuanYi Micro Hei,sans-serif;
+    color: #999;
+    min-width: 1226px;
+}
+
+.width{
+    width: 1226px;
+    margin: 0 auto;
+}
+
+
+/* 公共部分1 */
+.clearfix::before,
+.clearfix::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+/* body{
+    height: 2000px;
+} */
+
+/* 顶部容器样式 */
+.top-wrapper{
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    background-color: #333;
+}
+
+.top-content-left{
+    float: left;
+}
+
+.top-content-right li{
+    float: right;
+    margin-left: 10px;
+}
+
+.top-content-right .vx{
+    /* border: 1px  solid #333; */
+    position: relative;
+}
+
+.top-content-right .vx .vx_qrcode{
+    width: 110px;
+    line-height: 1;
+    text-align: center;
+    box-shadow: 0 0 5px rgba(0, 0, 0, .3);
+    position: absolute;
+    top: 40;
+    left: -25px;
+    height: 0;
+    overflow: hidden;
+    /* transition: height .25s; */
+}
+
+.top-content-right .vx .vx_qrcode img{
+    width: 100px;
+}
+
+.vx_qrcode span{
+    font-size: 14px;
+    display: block;
+    margin: 6px auto;
+    margin-top: 5px;
+}
+
+.vx:hover .vx_qrcode{
+    height: 130px;
+    z-index: 100;
+    background-color: white;
+}
+
+
+/* logo容器样式 */
+.logo-wrapper{ 
+    background-color: white;
+    /* height: 100px; */
+    /* line-height: 100px; */
+    position: relative;
+    margin: 20px auto !important;
+}
+.logo-wrapper .logo{
+    margin-left: 10px;
+    height: 100px;
+}
+.logo-wrapper .name{
+    width: 500px;
+    margin-bottom: 12px;
+    margin-left: 10px;
+}
+
+/* logo条搜索框样式 */
+.top-searchBox{
+    position: absolute;
+    top: 40px;
+    right: 60px;
+    border: 1px #333 solid;
+    border-radius: 15px;
+    width: 200px;
+    background-color: white;
+}
+.top-searchBox input{
+    outline: none;
+    border: 0;
+    height: 30px;
+    color: #333;
+    background-color: transparent;
+}
+.top-searchBox span{
+    position: absolute;
+    right: 30px;
+    font-size: 20px;
+}
+.top-searchBox i{
+    font-size: 15px;
+    cursor: pointer;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+
+/* 导航条样式 */
+.nav-wrapper{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 48px;
+    background-color: #e8e7e3;
+    /* 居中 */
+    top: 0;
+    border-radius: 6px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, .3);
+}
+.nav-wrapper li{
+    float: left;
+    /* height: 48px; */
+    /* 居中 */
+    width: 175px;
+    line-height: 48px;
+    /* 不能设置成100% */
+}
+.nav-wrapper a{
+    /* 将a设置为块元素，便可设置超链接的高度。因为其父元素float，所以a也继承了float */
+    display: block;
+    text-decoration: none;
+    padding: 0 53px;
+    color: #777777;
+    font-size: 15px;
+    text-align: center;
+}
+.nav-wrapper a:hover{
+    background-color: #3f3f3f;
+    color: #e8e7e3;
+    border-radius: 6px ;
+}
+/* 导航条隐藏内容样式 */
+.info-hide-style{
+    position: absolute;
+    width: 174px;
+    background-color: #e8e7e3;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, .3);
+    border-radius: 0 0 6px 6px;
+    z-index: 100;
+}
+
+
+/* 底部容器样式 */
+.bottom-wrapper{
+    position: relative;
+    height: 200px;
+    background-color: #333;
+    color: rgb(100, 100, 100)
+}
+.bottom-content{
+    position: relative;
+}
+.bottom-content p{
+    line-height: 40px;
+    position: absolute;
+    top: 50px;
+}
+.bottom-wrapper .jndx-wrapper img{
+    position: absolute;
+    width: 300px;
+    top: 50px;
+    left: 500px;
+}
+
+.sepLine{
+    position: absolute;
+    border-left: rgb(78, 78, 78) 1px solid;
+    height: 100px;
+}
+#sl1{
+    top: 50px;
+    left: 430px;
+}
+#sl2{
+    top: 50px;
+    left: 870px;
+}

@@ -1,0 +1,21 @@
+.contentBase{
+    position: absolute;
+    width: 900px;
+    margin-top: 50px;
+    line-height: 25px;
+    right: 0;
+    z-index: 1;
+    background-color: white;
+}
+.contentBase:nth-child(1){
+    z-index: 2;
+}
+/* 社团介绍 */
+.content-sqlc{
+    /* height: 700px; */
+}
+
+/* 部门组成 */
+.content-sqrk{
+    /* height: 1100px; */
+}

@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>江南大学学缘校友工作协会</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="fa/css/all.css">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/hdsq.css">
+    <link rel="stylesheet" href="css/branchBass1.css">
+    <script src="js/top-searchBox.js"></script>
+    <script src="js/info-hide.js"></script>
+    <script src="js/branchjs1.js"></script>
+    <script src="js/hdsq.js"></script>
+    <style>
+        .rg_layout{
+				width: 900px;
+				height: 500px;
+				border: 8px solid #EEEEEE;
+				background-color: white;
+				/*让div水平居中*/
+				margin: auto;
+				margin-top: 15px;
+			}
+			
+			.rg_left{
+				/*border: 1px solid red;*/
+				float: left;
+				margin: 15px;
+			}
+			.rg_left > p:first-child{
+				color: #FFD026;
+				font-size: 25px;	
+			}
+			.rg_left > p:last-child{
+				color: #A6A6A6;
+				font-size: 25px;
+			}
+			.rg_center{
+				/*border: 1px solid red;*/
+				float: left;
+				width: 450px;
+			}
+			.rg_right{
+				/*border: 1px solid red;*/
+				float: right;
+				margin: 15px;
+			}	
+			.rg_right > p:first-child{
+				font-size: 15px;
+			}
+			.rg_right p a{
+				color: pink;
+			}
+			.td_left{
+				width: 100px;
+				text-align: right;
+				height: 45px;	
+			}
+			.td_right{
+				padding-left: 50px;
+			}
+			#username,#birthday,#checkcode,#email,#name,#password,#tel{
+				width: 251px;
+				height: 23px;
+				border: 1px solid #A6A6A6;
+				/*设置边框圆角*/
+				border-radius: 5px ;
+				padding-right: 10px;
+			}
+			#img_check{
+				width: 100px;
+                height: 40px;
+				vertical-align: middle;	
+			}
+			#checkcode{
+				width: 110px;
+			}
+			#btn_sub{
+				width: 150px;
+				height: 40px;
+				background-color: #FFD026;
+				border: 1px solid #FFD026;
+			}
+    </style>
+</head>
+<body>
+    <!-- 顶部容器 -->
+    <div class="top-wrapper clearfix">
+        <div class="top-content width clearfix">
+            <div class="top-content-left">
+                欢迎访问江南大学学缘校友工作协会官方网站
+            </div>
+            <ul class="top-content-right">
+                <li class="vx">官方微信
+                    <div class="vx_qrcode">
+                        <img src="img/xueyuan.JPG" alt="">
+                        <span>学缘公众号</span>
+                    </div>
+                </li>
+                <li class="qq">官方QQ</li>
+            </ul>
+        </div>
+    </div>
+    <!-- 顶部logo容器 -->
+    <div class="logo-wrapper width clearfix">
+        <a href="stjj.html">
+            <img class="logo" src="img/logo.PNG" alt="学缘校友工作协会">
+            <img class="name" src="img/xyxygzxh.png" alt="学缘校友工作协会">
+        </a>
+        
+        
+        <div class="top-searchBox clearfix">
+            <label for=""></label>
+            <input type="text" value="请输入查询内容">
+            <span>|</span>
+            <i class="fas fa-search"></i>
+        </div>
+    </div>
+    <!-- 导航条容器 -->
+    <div class="nav-wrapper clearfix">
+        <ul class="info width clearfix">
+            <li><a href="index.html">首页</a></li>
+            <li id="communityProfile" class="hideElement">
+                <a href="stjj.html">社团简介</a>
+                <div class="info-hide-style" style="display: none;">
+                    <a href="javascript:;">社团介绍</a>
+                    <a href="javascript:;">部门组成</a>
+                    <a href="javascript:;">成员简介</a>
+                </div>
+            </li>
+            <li><a href="stkx.html">社团快讯</a></li>
+            <li id="communityActivity" class="hideElement">
+                <a href="sthd.html">社团活动</a>
+                <div class="info-hide-style" style="display: none;">
+                    <a href="javascript:;">素拓活动</a>
+                    <a href="javascript:;">校友回访</a>
+                    <a href="javascript:;">团内外出</a>
+                </div>
+            </li>
+            <li><a href="gzzd.html">规章制度</a></li>
+            <li><a href="lxwm.html">联系我们</a></li>
+            <li id="activityApply" class="hideElement">
+                <a href="hdsq.html">活动申请</a>
+                <div class="info-hide-style" style="display: none;">
+                    <a href="javascript:;">申请流程</a>
+                    <a href="javascript:;">申请入口</a>
+                </div>
+            </li>
+        </ul>
+    </div>
+
+
+    <div class="content-wrapper width clearfix">
+        <!-- 左侧导航栏 -->
+        <div class="left-nav-wrapper clearfix">
+            <div class="nav-title">
+                <i class="fas fa-location-arrow"></i>
+                活动申请
+            </div>
+            <ul>
+                <li data-index="0" class="nav-changeStyle">申请流程
+                    <span class="fas">&#xf105</span>
+                </li>
+                <li data-index="1">申请入口
+                    <span class="fas"></span>
+                </li>
+            </ul>
+        </div>
+
+        <ul class="content clearfix">
+            <!-- 申请流程 -->
+            <li class="content-sqlc clearfix contentBase">
+                <div class="content-title">
+                    <span class="left-title">申请流程</span>
+                    <span class="right-location">
+                        <i class="fas fa-compass"></i>
+                        当前位置：活动申请>>申请流程
+                    </span>
+                </div>
+                <div class="text">
+                </div>
+            </li>
+            <!-- 申请入口 -->
+            <li class="content-sqrk clearfix contentBase">
+                <div class="content-title">
+                    <span class="left-title">申请入口</span>
+                    <span class="right-location">
+                        <i class="fas fa-compass"></i>
+                        当前位置：活动申请>>申请入口
+                    </span>
+                </div>
+                <ul class="text clearfix">
+                    <form action="#" method="post">
+                        <table>
+                            <tr>
+                                <td class="td_left"><label for="username">姓名</label></td>
+                                <td class="td_right"><input type="text" name="username" id="username" placeholder="请输入姓名"/></td>
+                            </tr>
+                            
+                             
+                            <tr>
+                                <td class="td_left"><label for="email">Email</label></td>
+                                <td class="td_right"><input type="email" name="emsil" id="email" placeholder="请输入邮箱"/></td>
+                            </tr>
+                            
+                            
+                            <tr>
+                                <td class="td_left"><label for="tel">手机号</label></td>
+                                <td class="td_right"><input type="password" name="tel" id="tel" placeholder="请输入手机号码"/></td>
+                            </tr>
+                             
+                            <tr>
+                                <td class="td_left"><label>活动类型</label></td>
+                                <td class="td_right">
+                                    <input type="radio" name="activityType" value="st"/>素拓
+                                    <input type="radio" name="activityType" value="hdcb"/>活动承办
+                                    <input type="radio" name="activityType" value="other"/>其他
+                                </td>
+                            </tr>
+                            
+                            <tr>
+                                <td class="td_left"><label for="birthday">活动日期</label></td>
+                                <td class="td_right"><input type="date" name="birthday" id="birthday" placeholder="请输入出生日期"/></td>
+                            </tr>
+                            
+                            <tr>
+                                <td class="td_left"><label for="checkcode">验证码</label></td>
+                                <td class="td_right"><input type="text" name="checkcode" id="checkcode" placeholder="请输入验证码"/>
+                                <img id="img_check" src="img/验证码.jpg"  width="40" height="25"/>
+                                </td>
+                            </tr>
+                            
+                            <tr>
+                                <td  colspan="2" align="center"><input type="submit" value="确认信息" id="btn_sub"/></td>
+                            </tr>
+                        </table>
+                    </form>
+                </ul>
+            </li>
+        </ul>
+    </div>
+
+
+    <!-- 底部容器 -->
+    <div class="bottom-wrapper clearfix">
+        <div class="bottom-content width clearfix">
+            <p>
+                Copyright 江南大学学院校友工作协会. All rights reserved
+                <br>
+                地址：江南大学学缘校友工作协会
+            </p>
+            <span class="sepLine" id="sl1"></span>
+            <div class="jndx-wrapper">
+                <img src="img/jndx.png" alt="">
+            </div>
+            <span class="sepLine" id="sl2"></span>
+        </div>
+    </div>
+</body>
+</html>

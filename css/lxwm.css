@@ -1,0 +1,29 @@
+.contentBase{
+    position: absolute;
+    width: 900px;
+    margin-top: 50px;
+    line-height: 25px;
+    right: 0;
+    z-index: 1;
+    background-color: white;
+}
+.contentBase:nth-child(1){
+    z-index: 2;
+}
+
+.text{
+    position: relative;
+}
+
+.content-lxwm .text img{
+    position: absolute;
+    width: 400px;
+    left: 250px;
+    top: -50px;
+}
+.content-lxwm .text span{
+    position: absolute;
+    top: 380px;
+    left: 320px;
+    font-size: 40px;
+}

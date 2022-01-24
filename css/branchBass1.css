@@ -1,0 +1,94 @@
+.content-wrapper{
+    position: relative;
+    overflow: hidden;
+}
+.content{
+    width: 900px;
+    height: 700px;
+    float: right;
+}
+
+.content>li{
+    /* background-color: rgba(0, 0, 0, .3); */
+    /* border-left: solid #e8e7e3 1px; */
+    padding-left: 15px;
+    padding-top: 20px;
+    box-shadow: #e8e7e3 0px 0px 2px;
+}
+
+.left-nav-wrapper{
+    position: absolute;
+    top: 0px;
+    margin-top: 50px;
+    /* border: 1px black solid; */
+    float: left;
+    width: 280px;
+    text-align: center;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, .3);
+}
+.left-nav-wrapper span{
+    position: absolute;
+    top: 15px;
+    right: 10px;
+    font-size: 40px;
+}
+.left-nav-wrapper i{
+    font-size: 30px;
+}
+.left-nav-wrapper li{
+    color: #333;
+    font-size: 30px;
+    padding: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    /* border-bottom: 1px solid black; */
+    line-height: 50px;
+    cursor: pointer;
+    position: relative;
+}
+.nav-title{
+    color: #e8e7e3;
+    background-color: #999;
+    font-size: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    line-height: 80px;
+}
+
+.left-nav-wrapper li:hover{
+    background-color: #e8e7e3;
+}
+
+/* 点击后更改样式 */
+.nav-changeStyle{
+    background-color: #e8e7e3;
+}
+
+
+/* 右边内容区样式 */
+/* 抬头统一样式 */
+.content-title .right-location{
+    width: 800px;
+    font-size: 15px;
+    float: right;
+    border-bottom: 1px solid #333;
+    text-align: right;
+    padding-bottom: 10px;
+}
+.content-title .left-title{
+    float: left;
+    color: #333;
+    border-bottom: rgb(250, 170, 184) 10px solid;
+    font-size: 25px;
+    padding-bottom: 5px;
+}
+/* 正文样式 */
+.text{
+    margin-top: 80px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.content h2{
+    text-shadow: 2px 2px 1px rgba(0, 0, 0, .3);
+}
